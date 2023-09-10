@@ -1,0 +1,1282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{20E75731-49EC-438B-91AF-D980A5BBA3DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Inicio.My.MyApplication</StartupObject>
+    <RootNamespace>Inicio</RootNamespace>
+    <AssemblyName>Coopefevol</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\CoopefevolSistema\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Coopefevol.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Coopefevol.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>if-advantage-teamwork-1034367_88840 %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activos.Designer.vb">
+      <DependentUpon>Activos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Activos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ahorros.Designer.vb">
+      <DependentUpon>Ahorros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ahorros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Asociados.Designer.vb">
+      <DependentUpon>Asociados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Asociados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Casilleros.Designer.vb">
+      <DependentUpon>Casilleros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Casilleros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cooperativa2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa2DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa2DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa2DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa2DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa2DataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa2DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet28.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet29.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet30.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet32.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet33.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet34.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet35.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet36.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet37.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet38.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet39.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet39.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet40.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet41.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet42.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet42.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet43.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet43.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperativa3DataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cooperativa3DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CorteAhorros.Designer.vb">
+      <DependentUpon>CorteAhorros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CorteAhorros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes.Designer.vb">
+      <DependentUpon>Informes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Informes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.Designer.vb">
+      <DependentUpon>InicioSesion.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.vb">
+      <DependentUpon>Inventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Productos.Designer.vb">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReactDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReactDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReactDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Ventas.Designer.vb">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activos.resx">
+      <DependentUpon>Activos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ahorros.resx">
+      <DependentUpon>Ahorros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asociados.resx">
+      <DependentUpon>Asociados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Casilleros.resx">
+      <DependentUpon>Casilleros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorteAhorros.resx">
+      <DependentUpon>CorteAhorros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes.resx">
+      <DependentUpon>Informes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicioSesion.resx">
+      <DependentUpon>InicioSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cooperativa2DataSet.xsc">
+      <DependentUpon>Cooperativa2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa2DataSet.xss">
+      <DependentUpon>Cooperativa2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet1.xsc">
+      <DependentUpon>Cooperativa2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa2DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa2DataSet1.xss">
+      <DependentUpon>Cooperativa2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet2.xsc">
+      <DependentUpon>Cooperativa2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa2DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa2DataSet2.xss">
+      <DependentUpon>Cooperativa2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet3.xsc">
+      <DependentUpon>Cooperativa2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa2DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa2DataSet3.xss">
+      <DependentUpon>Cooperativa2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet4.xsc">
+      <DependentUpon>Cooperativa2DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa2DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa2DataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa2DataSet4.xss">
+      <DependentUpon>Cooperativa2DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet.xsc">
+      <DependentUpon>Cooperativa3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet.xss">
+      <DependentUpon>Cooperativa3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet1.xsc">
+      <DependentUpon>Cooperativa3DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet1.xss">
+      <DependentUpon>Cooperativa3DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet10.xsc">
+      <DependentUpon>Cooperativa3DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet10.xss">
+      <DependentUpon>Cooperativa3DataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet11.xsc">
+      <DependentUpon>Cooperativa3DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet11.xss">
+      <DependentUpon>Cooperativa3DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet12.xsc">
+      <DependentUpon>Cooperativa3DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet12.xss">
+      <DependentUpon>Cooperativa3DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet13.xsc">
+      <DependentUpon>Cooperativa3DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet13.xss">
+      <DependentUpon>Cooperativa3DataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet14.xsc">
+      <DependentUpon>Cooperativa3DataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet14.xss">
+      <DependentUpon>Cooperativa3DataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet15.xsc">
+      <DependentUpon>Cooperativa3DataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet15.xss">
+      <DependentUpon>Cooperativa3DataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet16.xsc">
+      <DependentUpon>Cooperativa3DataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet16.xss">
+      <DependentUpon>Cooperativa3DataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet17.xsc">
+      <DependentUpon>Cooperativa3DataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet17.xss">
+      <DependentUpon>Cooperativa3DataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet18.xsc">
+      <DependentUpon>Cooperativa3DataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet18.xss">
+      <DependentUpon>Cooperativa3DataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet19.xsc">
+      <DependentUpon>Cooperativa3DataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet19.xss">
+      <DependentUpon>Cooperativa3DataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet2.xsc">
+      <DependentUpon>Cooperativa3DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet2.xss">
+      <DependentUpon>Cooperativa3DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet20.xsc">
+      <DependentUpon>Cooperativa3DataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet20.xss">
+      <DependentUpon>Cooperativa3DataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet21.xsc">
+      <DependentUpon>Cooperativa3DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet21.xss">
+      <DependentUpon>Cooperativa3DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet22.xsc">
+      <DependentUpon>Cooperativa3DataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet22.xss">
+      <DependentUpon>Cooperativa3DataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet23.xsc">
+      <DependentUpon>Cooperativa3DataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet23.xss">
+      <DependentUpon>Cooperativa3DataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet24.xsc">
+      <DependentUpon>Cooperativa3DataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet24.xss">
+      <DependentUpon>Cooperativa3DataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet25.xsc">
+      <DependentUpon>Cooperativa3DataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet25.xss">
+      <DependentUpon>Cooperativa3DataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet26.xsc">
+      <DependentUpon>Cooperativa3DataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet26.xss">
+      <DependentUpon>Cooperativa3DataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet27.xsc">
+      <DependentUpon>Cooperativa3DataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet27.xss">
+      <DependentUpon>Cooperativa3DataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet28.xsc">
+      <DependentUpon>Cooperativa3DataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet28.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet28.xss">
+      <DependentUpon>Cooperativa3DataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet29.xsc">
+      <DependentUpon>Cooperativa3DataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet29.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet29.xss">
+      <DependentUpon>Cooperativa3DataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet3.xsc">
+      <DependentUpon>Cooperativa3DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet3.xss">
+      <DependentUpon>Cooperativa3DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet30.xsc">
+      <DependentUpon>Cooperativa3DataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet30.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet30.xss">
+      <DependentUpon>Cooperativa3DataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet31.xsc">
+      <DependentUpon>Cooperativa3DataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet31.xss">
+      <DependentUpon>Cooperativa3DataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet32.xsc">
+      <DependentUpon>Cooperativa3DataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet32.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet32.xss">
+      <DependentUpon>Cooperativa3DataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet33.xsc">
+      <DependentUpon>Cooperativa3DataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet33.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet33.xss">
+      <DependentUpon>Cooperativa3DataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet34.xsc">
+      <DependentUpon>Cooperativa3DataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet34.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet34.xss">
+      <DependentUpon>Cooperativa3DataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet35.xsc">
+      <DependentUpon>Cooperativa3DataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet35.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet35.xss">
+      <DependentUpon>Cooperativa3DataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet36.xsc">
+      <DependentUpon>Cooperativa3DataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet36.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet36.xss">
+      <DependentUpon>Cooperativa3DataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet37.xsc">
+      <DependentUpon>Cooperativa3DataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet37.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet37.xss">
+      <DependentUpon>Cooperativa3DataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet38.xsc">
+      <DependentUpon>Cooperativa3DataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet38.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet38.xss">
+      <DependentUpon>Cooperativa3DataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet39.xsc">
+      <DependentUpon>Cooperativa3DataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet39.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet39.xss">
+      <DependentUpon>Cooperativa3DataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet4.xsc">
+      <DependentUpon>Cooperativa3DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet4.xss">
+      <DependentUpon>Cooperativa3DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet40.xsc">
+      <DependentUpon>Cooperativa3DataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet40.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet40.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet40.xss">
+      <DependentUpon>Cooperativa3DataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet41.xsc">
+      <DependentUpon>Cooperativa3DataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet41.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet41.xss">
+      <DependentUpon>Cooperativa3DataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet42.xsc">
+      <DependentUpon>Cooperativa3DataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet42.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet42.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet42.xss">
+      <DependentUpon>Cooperativa3DataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet43.xsc">
+      <DependentUpon>Cooperativa3DataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet43.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet43.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet43.xss">
+      <DependentUpon>Cooperativa3DataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet5.xsc">
+      <DependentUpon>Cooperativa3DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet5.xss">
+      <DependentUpon>Cooperativa3DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet6.xsc">
+      <DependentUpon>Cooperativa3DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet6.xss">
+      <DependentUpon>Cooperativa3DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet7.xsc">
+      <DependentUpon>Cooperativa3DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet7.xss">
+      <DependentUpon>Cooperativa3DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet8.xsc">
+      <DependentUpon>Cooperativa3DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet8.xss">
+      <DependentUpon>Cooperativa3DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet9.xsc">
+      <DependentUpon>Cooperativa3DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Cooperativa3DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cooperativa3DataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cooperativa3DataSet9.xss">
+      <DependentUpon>Cooperativa3DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="ReactDataSet.xsc">
+      <DependentUpon>ReactDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet.xss">
+      <DependentUpon>ReactDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet1.xsc">
+      <DependentUpon>ReactDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet1.xss">
+      <DependentUpon>ReactDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet10.xsc">
+      <DependentUpon>ReactDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet10.xss">
+      <DependentUpon>ReactDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet11.xsc">
+      <DependentUpon>ReactDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet11.xss">
+      <DependentUpon>ReactDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet12.xsc">
+      <DependentUpon>ReactDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet12.xss">
+      <DependentUpon>ReactDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet13.xsc">
+      <DependentUpon>ReactDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet13.xss">
+      <DependentUpon>ReactDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet14.xsc">
+      <DependentUpon>ReactDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet14.xss">
+      <DependentUpon>ReactDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet2.xsc">
+      <DependentUpon>ReactDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet2.xss">
+      <DependentUpon>ReactDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet3.xsc">
+      <DependentUpon>ReactDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet3.xss">
+      <DependentUpon>ReactDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet4.xsc">
+      <DependentUpon>ReactDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet4.xss">
+      <DependentUpon>ReactDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet5.xsc">
+      <DependentUpon>ReactDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet5.xss">
+      <DependentUpon>ReactDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet6.xsc">
+      <DependentUpon>ReactDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet6.xss">
+      <DependentUpon>ReactDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet7.xsc">
+      <DependentUpon>ReactDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet7.xss">
+      <DependentUpon>ReactDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet8.xsc">
+      <DependentUpon>ReactDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet8.xss">
+      <DependentUpon>ReactDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet9.xsc">
+      <DependentUpon>ReactDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ReactDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReactDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReactDataSet9.xss">
+      <DependentUpon>ReactDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="if-advantage-teamwork-1034367_88840 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
