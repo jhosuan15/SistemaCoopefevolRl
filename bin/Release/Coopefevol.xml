@@ -1,0 +1,4126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Coopefevol
+</name>
+</assembly>
+<members>
+<member name="T:Inicio.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Inicio.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Inicio.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSetTableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa2DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa2DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa2DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa2DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa2DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa2DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa2DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa2DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa2DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa2DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4TableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa2DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa2DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa2DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa2DataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa2DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSetTableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1TableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12TableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13.VentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13.VentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13.VentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13TableAdapters.VentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet15)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet16)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet17)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet18)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet19)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2TableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet20)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet21)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet22)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet23)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet24)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet25,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet25)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet25TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet26)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet27,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet27)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet27TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet28,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet28)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet28TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet29,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet29)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet29TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet30,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet30)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet30TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31.AhorrosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31.AhorrosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31.AhorrosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31TableAdapters.AhorrosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet31,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet31)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet31TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32TableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet32,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet32)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet32TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33.AhorrosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33.AhorrosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33.AhorrosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33TableAdapters.AhorrosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet33,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet33)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet33TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet34,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet34)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet34TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet35,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet35)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet35TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet36,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet36)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet36TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet37,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet37)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet37TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet38,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet38)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet38TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39TableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet39,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet39,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet39,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet39)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet39TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40.VentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40.VentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40.VentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40TableAdapters.VentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet40,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet40,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet40,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet40)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet40TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41.AhorrosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41.AhorrosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41.AhorrosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41TableAdapters.AhorrosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet41,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet41,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet41,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet41)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet41TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42.AhorrosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42.AhorrosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42.AhorrosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42TableAdapters.AhorrosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet42,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet42,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet42,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet42)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet42TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet43,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet43,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet43,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet43)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet43TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5TableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6TableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7.AhorrosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7.AhorrosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7.AhorrosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7TableAdapters.AhorrosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.Cooperativa3DataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.Cooperativa3DataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.Cooperativa3DataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.UpdateAll(Inicio.Cooperativa3DataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.Cooperativa3DataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet.AhorrosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet.AhorrosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet.AhorrosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSetTableAdapters.AhorrosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSetTableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12TableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2.AsociadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2.AsociadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2.AsociadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2TableAdapters.AsociadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3.ActivosFijosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3.ActivosFijosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3.ActivosFijosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3TableAdapters.ActivosFijosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4.CasilleroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4.CasilleroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4.CasilleroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4TableAdapters.CasilleroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5.InventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5.InventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5.InventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5TableAdapters.InventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6.ProductosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6.ProductosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6.ProductosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6TableAdapters.ProductosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7.VentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7.VentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7.VentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7TableAdapters.VentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8.AhorrosCorteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8.AhorrosCorteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8.AhorrosCorteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8TableAdapters.AhorrosCorteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9.VentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9.VentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9.VentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9TableAdapters.VentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inicio.ReactDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Inicio.ReactDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Inicio.ReactDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.UpdateAll(Inicio.ReactDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inicio.ReactDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
